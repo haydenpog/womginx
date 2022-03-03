@@ -9,16 +9,7 @@
 </head>
 
 <body>
- <script>
-                function go() {
-                    var input = document.getElementById('url-target');
-                    if (input.value) {
-                        window.location.href = '/main/' + input.value;
-                    } else {
-                        alert('Please provide a link. It does not require https://.');
-                    }
-                }
-            </script>
+
   
   <nav>
     <ul>
@@ -32,6 +23,16 @@
   </nav>
 
   <div id="central">
+     <script>
+                function go() {
+                    var input = document.getElementById('url-target');
+                    if (input.value) {
+                        window.location.href = '/main/' + input.value;
+                    } else {
+                        alert('Please provide a link. It does not require https://.');
+                    }
+                }
+            </script>
     <img src="https://www.google.com/images/srpr/logo5w.png" title="Google">
     <form>
       <input type='text' placeholder='https://www.google.com' id='url-target'
