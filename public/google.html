@@ -34,7 +34,9 @@
   <div id="central">
     <img src="https://www.google.com/images/srpr/logo5w.png" title="Google">
     <form>
-      <input type="text" title="Search">
+      <input type='text' placeholder='https://www.google.com' id='url-target'
+                    onkeydown='if(event.key==="Enter") go()' />
+      <input type="text" onclick='go()' title="Search">
       <input type="submit" value="Google Search">
       <input type="submit" value="I'm feeling lucky">
     </form>
