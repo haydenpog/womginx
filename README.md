@@ -1,4 +1,5 @@
-# womginx but hot and sexy and sexy and hot and gay buttsex?!??! by that i mean google front page ;D
+# womginx but with a google front page.
+I would recommend fixing the issue of "Impersonating" where it blocks the site. But im lazy so do it yourself 🖕
 
 public on: wingwangginx.herokuapp.com
 ## Site compatibility
